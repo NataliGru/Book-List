@@ -1,13 +1,20 @@
 const fs = require('fs');
 
+let currentISBN = 1;
+const generateISBN = () => {
+  const ISBN = `${currentISBN}`.padStart(10, '0');
+  currentISBN++;
+  return ISBN;
+};
+
 const data = { books: [] };
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 99; i++) {
   data.books.push({
     id: i,
     title: `Book ${i}`,
     author: `Author ${i}`,
     category: `Category ${i}`,
-    isbn: `${i}${i}${i}${i}${i}${i}${i}${i}${i}${i}`,
+    isbn: generateISBN(),
     imgUrl: `https://via.placeholder.com/150/92c952?text=Book${i}`,
     createdAt: new Date().toLocaleString(),
     modifiedAt: null,
