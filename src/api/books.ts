@@ -1,22 +1,22 @@
 import { Book } from '../types/Book';
 import { client } from '../utils/fetchClient';
 
-// export const getBooks = (userId: number) => {
-//   return client.get<Book[]>(`/Books?userId=${userId}`);
-// };
+export const getBooks = () => {
+  return client.get<Book[]>(`/books`);
+};
 
-// export function addBook(title: string) {
-//   return client.post<Book>('/Books', {
-//     title,
-//     completed: false,
-//     userId: USER_ID,
-//   });
-// }
+export function addBook(title: string) {
+  return client.post<Book>('/books', {
+    title,
+    completed: false,
+  });
+}
 
-// export function deleteBook(BookId: number) {
-//   return client.delete(`/Books/${BookId}`);
-// }
+export function deleteBook(bookId: number) {
+  return client.delete(`/books/${bookId}`);
+}
 
-// export function updateBook({ id, ...BookData }: Book) {
-//   return client.patch<Book>(`/Books/${id}`, BookData);
-// }
+export function updateBook({ id, ...bookData }: Book) {
+
+  return client.patch<Book>(`/books/${id}`, bookData);
+}

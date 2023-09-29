@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 const BASE_URL = 'http://localhost:3000';
 
 // To have autocompletion and avoid mistypes

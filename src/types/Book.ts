@@ -1,6 +1,10 @@
 export interface Book {
   id: number;
-  userId: number;
   title: string;
-  completed: boolean;
+  author: string;
+  category: string;
+  isbn: string;
+  createdAt: string;
+  modifiedAt: string | null;
+  active: boolean;
 }

@@ -1,7 +1,40 @@
 import React from 'react';
+import Box from '@mui/material/Box';
+import BottomNavigation from '@mui/material/BottomNavigation';
+import BottomNavigationAction from '@mui/material/BottomNavigationAction';
+import RestoreIcon from '@mui/icons-material/Restore';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
-export const Footer: React.FC = () => {
+export const Footer = () => {
+  const [value, setValue] = React.useState(0);
+
   return (
-    <div></div>
+    <Box sx={{ width: 500 }}>
+      <BottomNavigation
+        showLabels
+        value={value}
+        onChange={(event, newValue) => {
+          setValue(newValue);
+        }}
+      >
+        <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
+        <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
+        <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
+      </BottomNavigation>
+    </Box>
   );
-};
+}
+
+export const Footer2 = () => (
+  <footer
+    style={{ position: 'fixed', bottom: 0, width: '100%', textAlign: 'center' }}
+  >
+    <button className="button">
+      <span className="icon">
+        <i className="fab fa-github"></i>
+      </span>
+      <span>GitHub</span>
+    </button>
+  </footer>
+);

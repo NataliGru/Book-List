@@ -1,37 +1,25 @@
 {
   "books": [
     {
-      "id": 1,
-      "title": "Book 1",
-      "author": "Author 1",
-      "category": "Fiction",
-      "isbn": "0000000001",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book1",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
-    },
-    {
       "id": 2,
       "title": "Book 2",
       "author": "Author 2",
       "category": "Fiction",
       "isbn": "0000000002",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book2",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": true
     },
     {
       "id": 3,
       "title": "Book 3",
-      "author": "Author 3",
+      "author": "Author 32323",
       "category": "Fiction",
       "isbn": "0000000003",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book3",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": true,
+      "Active": true
     },
     {
       "id": 4,
@@ -39,54 +27,9 @@
       "author": "Author 4",
       "category": "Fiction",
       "isbn": "0000000004",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book4",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
-    },
-    {
-      "id": 5,
-      "title": "Book 5",
-      "author": "Author 5",
-      "category": "Fiction",
-      "isbn": "0000000005",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book5",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
-    },
-    {
-      "id": 6,
-      "title": "Book 6",
-      "author": "Author 6",
-      "category": "Fiction",
-      "isbn": "0000000006",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book6",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
-    },
-    {
-      "id": 7,
-      "title": "Book 7",
-      "author": "Author 7",
-      "category": "Fiction",
-      "isbn": "0000000007",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book7",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
-    },
-    {
-      "id": 8,
-      "title": "Book 8",
-      "author": "Author 8",
-      "category": "Fiction",
-      "isbn": "0000000008",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book8",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": true
     },
     {
       "id": 9,
@@ -94,10 +37,9 @@
       "author": "Author 9",
       "category": "Fiction",
       "isbn": "0000000009",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book9",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 10,
@@ -105,21 +47,19 @@
       "author": "Author 10",
       "category": "Fiction",
       "isbn": "0000000010",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book10",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 11,
       "title": "Book 11",
-      "author": "Author 11",
+      "author": "Author 11111",
       "category": "Science Fiction",
       "isbn": "0000000011",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book11",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 12,
@@ -127,10 +67,9 @@
       "author": "Author 12",
       "category": "Science Fiction",
       "isbn": "0000000012",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book12",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 13,
@@ -138,10 +77,9 @@
       "author": "Author 13",
       "category": "Science Fiction",
       "isbn": "0000000013",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book13",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 14,
@@ -149,10 +87,9 @@
       "author": "Author 14",
       "category": "Science Fiction",
       "isbn": "0000000014",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book14",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 15,
@@ -160,10 +97,9 @@
       "author": "Author 15",
       "category": "Science Fiction",
       "isbn": "0000000015",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book15",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 16,
@@ -171,10 +107,9 @@
       "author": "Author 16",
       "category": "Science Fiction",
       "isbn": "0000000016",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book16",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 17,
@@ -182,10 +117,9 @@
       "author": "Author 17",
       "category": "Science Fiction",
       "isbn": "0000000017",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book17",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 18,
@@ -193,10 +127,9 @@
       "author": "Author 18",
       "category": "Science Fiction",
       "isbn": "0000000018",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book18",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 19,
@@ -204,10 +137,9 @@
       "author": "Author 19",
       "category": "Science Fiction",
       "isbn": "0000000019",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book19",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 20,
@@ -215,10 +147,9 @@
       "author": "Author 20",
       "category": "Science Fiction",
       "isbn": "0000000020",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book20",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 21,
@@ -226,10 +157,9 @@
       "author": "Author 21",
       "category": "Mystery",
       "isbn": "0000000021",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book21",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 22,
@@ -237,10 +167,9 @@
       "author": "Author 22",
       "category": "Mystery",
       "isbn": "0000000022",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book22",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 23,
@@ -248,10 +177,9 @@
       "author": "Author 23",
       "category": "Mystery",
       "isbn": "0000000023",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book23",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 24,
@@ -259,10 +187,9 @@
       "author": "Author 24",
       "category": "Mystery",
       "isbn": "0000000024",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book24",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 25,
@@ -270,10 +197,9 @@
       "author": "Author 25",
       "category": "Mystery",
       "isbn": "0000000025",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book25",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 26,
@@ -281,10 +207,9 @@
       "author": "Author 26",
       "category": "Mystery",
       "isbn": "0000000026",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book26",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 27,
@@ -292,10 +217,9 @@
       "author": "Author 27",
       "category": "Mystery",
       "isbn": "0000000027",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book27",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 28,
@@ -303,10 +227,9 @@
       "author": "Author 28",
       "category": "Mystery",
       "isbn": "0000000028",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book28",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 29,
@@ -314,10 +237,9 @@
       "author": "Author 29",
       "category": "Mystery",
       "isbn": "0000000029",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book29",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 30,
@@ -325,10 +247,9 @@
       "author": "Author 30",
       "category": "Mystery",
       "isbn": "0000000030",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book30",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 31,
@@ -336,10 +257,9 @@
       "author": "Author 31",
       "category": "Romance",
       "isbn": "0000000031",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book31",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 32,
@@ -347,10 +267,9 @@
       "author": "Author 32",
       "category": "Romance",
       "isbn": "0000000032",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book32",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 33,
@@ -358,10 +277,9 @@
       "author": "Author 33",
       "category": "Romance",
       "isbn": "0000000033",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book33",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 34,
@@ -369,10 +287,9 @@
       "author": "Author 34",
       "category": "Romance",
       "isbn": "0000000034",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book34",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 35,
@@ -380,10 +297,9 @@
       "author": "Author 35",
       "category": "Romance",
       "isbn": "0000000035",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book35",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 36,
@@ -391,10 +307,9 @@
       "author": "Author 36",
       "category": "Romance",
       "isbn": "0000000036",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book36",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 37,
@@ -402,10 +317,9 @@
       "author": "Author 37",
       "category": "Romance",
       "isbn": "0000000037",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book37",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 38,
@@ -413,10 +327,9 @@
       "author": "Author 38",
       "category": "Romance",
       "isbn": "0000000038",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book38",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 39,
@@ -424,10 +337,9 @@
       "author": "Author 39",
       "category": "Romance",
       "isbn": "0000000039",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book39",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 40,
@@ -435,10 +347,9 @@
       "author": "Author 40",
       "category": "Romance",
       "isbn": "0000000040",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book40",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 41,
@@ -446,10 +357,9 @@
       "author": "Author 41",
       "category": "Fantasy",
       "isbn": "0000000041",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book41",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 42,
@@ -457,10 +367,9 @@
       "author": "Author 42",
       "category": "Fantasy",
       "isbn": "0000000042",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book42",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 43,
@@ -468,10 +377,9 @@
       "author": "Author 43",
       "category": "Fantasy",
       "isbn": "0000000043",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book43",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 44,
@@ -479,10 +387,9 @@
       "author": "Author 44",
       "category": "Fantasy",
       "isbn": "0000000044",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book44",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 45,
@@ -490,10 +397,9 @@
       "author": "Author 45",
       "category": "Fantasy",
       "isbn": "0000000045",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book45",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 46,
@@ -501,10 +407,9 @@
       "author": "Author 46",
       "category": "Fantasy",
       "isbn": "0000000046",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book46",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 47,
@@ -512,10 +417,9 @@
       "author": "Author 47",
       "category": "Fantasy",
       "isbn": "0000000047",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book47",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 48,
@@ -523,10 +427,9 @@
       "author": "Author 48",
       "category": "Fantasy",
       "isbn": "0000000048",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book48",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 49,
@@ -534,10 +437,9 @@
       "author": "Author 49",
       "category": "Fantasy",
       "isbn": "0000000049",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book49",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 50,
@@ -545,10 +447,9 @@
       "author": "Author 50",
       "category": "Fantasy",
       "isbn": "0000000050",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book50",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 51,
@@ -556,10 +457,9 @@
       "author": "Author 51",
       "category": "Thriller",
       "isbn": "0000000051",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book51",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 52,
@@ -567,10 +467,9 @@
       "author": "Author 52",
       "category": "Thriller",
       "isbn": "0000000052",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book52",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 53,
@@ -578,10 +477,9 @@
       "author": "Author 53",
       "category": "Thriller",
       "isbn": "0000000053",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book53",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 54,
@@ -589,10 +487,9 @@
       "author": "Author 54",
       "category": "Thriller",
       "isbn": "0000000054",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book54",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 55,
@@ -600,10 +497,9 @@
       "author": "Author 55",
       "category": "Thriller",
       "isbn": "0000000055",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book55",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 56,
@@ -611,10 +507,9 @@
       "author": "Author 56",
       "category": "Thriller",
       "isbn": "0000000056",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book56",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 57,
@@ -622,10 +517,9 @@
       "author": "Author 57",
       "category": "Thriller",
       "isbn": "0000000057",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book57",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 58,
@@ -633,10 +527,9 @@
       "author": "Author 58",
       "category": "Thriller",
       "isbn": "0000000058",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book58",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 59,
@@ -644,10 +537,9 @@
       "author": "Author 59",
       "category": "Thriller",
       "isbn": "0000000059",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book59",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 60,
@@ -655,10 +547,9 @@
       "author": "Author 60",
       "category": "Thriller",
       "isbn": "0000000060",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book60",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 61,
@@ -666,10 +557,9 @@
       "author": "Author 61",
       "category": "Non-Fiction",
       "isbn": "0000000061",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book61",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 62,
@@ -677,10 +567,9 @@
       "author": "Author 62",
       "category": "Non-Fiction",
       "isbn": "0000000062",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book62",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 63,
@@ -688,10 +577,9 @@
       "author": "Author 63",
       "category": "Non-Fiction",
       "isbn": "0000000063",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book63",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 64,
@@ -699,10 +587,9 @@
       "author": "Author 64",
       "category": "Non-Fiction",
       "isbn": "0000000064",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book64",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 65,
@@ -710,10 +597,9 @@
       "author": "Author 65",
       "category": "Non-Fiction",
       "isbn": "0000000065",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book65",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 66,
@@ -721,10 +607,9 @@
       "author": "Author 66",
       "category": "Non-Fiction",
       "isbn": "0000000066",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book66",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 67,
@@ -732,10 +617,9 @@
       "author": "Author 67",
       "category": "Non-Fiction",
       "isbn": "0000000067",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book67",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 68,
@@ -743,10 +627,9 @@
       "author": "Author 68",
       "category": "Non-Fiction",
       "isbn": "0000000068",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book68",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 69,
@@ -754,10 +637,9 @@
       "author": "Author 69",
       "category": "Non-Fiction",
       "isbn": "0000000069",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book69",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 70,
@@ -765,10 +647,9 @@
       "author": "Author 70",
       "category": "Non-Fiction",
       "isbn": "0000000070",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book70",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 71,
@@ -776,10 +657,9 @@
       "author": "Author 71",
       "category": "Biography",
       "isbn": "0000000071",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book71",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 72,
@@ -787,10 +667,9 @@
       "author": "Author 72",
       "category": "Biography",
       "isbn": "0000000072",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book72",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 73,
@@ -798,10 +677,9 @@
       "author": "Author 73",
       "category": "Biography",
       "isbn": "0000000073",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book73",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 74,
@@ -809,10 +687,9 @@
       "author": "Author 74",
       "category": "Biography",
       "isbn": "0000000074",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book74",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 75,
@@ -820,10 +697,9 @@
       "author": "Author 75",
       "category": "Biography",
       "isbn": "0000000075",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book75",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 76,
@@ -831,10 +707,9 @@
       "author": "Author 76",
       "category": "Biography",
       "isbn": "0000000076",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book76",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 77,
@@ -842,10 +717,9 @@
       "author": "Author 77",
       "category": "Biography",
       "isbn": "0000000077",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book77",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 78,
@@ -853,10 +727,9 @@
       "author": "Author 78",
       "category": "Biography",
       "isbn": "0000000078",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book78",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 79,
@@ -864,10 +737,9 @@
       "author": "Author 79",
       "category": "Biography",
       "isbn": "0000000079",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book79",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 80,
@@ -875,10 +747,9 @@
       "author": "Author 80",
       "category": "Biography",
       "isbn": "0000000080",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book80",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 81,
@@ -886,10 +757,9 @@
       "author": "Author 81",
       "category": "Self-Help",
       "isbn": "0000000081",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book81",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 82,
@@ -897,10 +767,9 @@
       "author": "Author 82",
       "category": "Self-Help",
       "isbn": "0000000082",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book82",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 83,
@@ -908,10 +777,9 @@
       "author": "Author 83",
       "category": "Self-Help",
       "isbn": "0000000083",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book83",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 84,
@@ -919,10 +787,9 @@
       "author": "Author 84",
       "category": "Self-Help",
       "isbn": "0000000084",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book84",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 85,
@@ -930,10 +797,9 @@
       "author": "Author 85",
       "category": "Self-Help",
       "isbn": "0000000085",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book85",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 86,
@@ -941,10 +807,9 @@
       "author": "Author 86",
       "category": "Self-Help",
       "isbn": "0000000086",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book86",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 87,
@@ -952,10 +817,9 @@
       "author": "Author 87",
       "category": "Self-Help",
       "isbn": "0000000087",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book87",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 88,
@@ -963,10 +827,9 @@
       "author": "Author 88",
       "category": "Self-Help",
       "isbn": "0000000088",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book88",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 89,
@@ -974,10 +837,9 @@
       "author": "Author 89",
       "category": "Self-Help",
       "isbn": "0000000089",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book89",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 90,
@@ -985,10 +847,9 @@
       "author": "Author 90",
       "category": "Self-Help",
       "isbn": "0000000090",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book90",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 91,
@@ -996,10 +857,9 @@
       "author": "Author 91",
       "category": "Cooking",
       "isbn": "0000000091",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book91",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 92,
@@ -1007,10 +867,9 @@
       "author": "Author 92",
       "category": "Cooking",
       "isbn": "0000000092",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book92",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 93,
@@ -1018,10 +877,9 @@
       "author": "Author 93",
       "category": "Cooking",
       "isbn": "0000000093",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book93",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 94,
@@ -1029,10 +887,9 @@
       "author": "Author 94",
       "category": "Cooking",
       "isbn": "0000000094",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book94",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 95,
@@ -1040,10 +897,9 @@
       "author": "Author 95",
       "category": "Cooking",
       "isbn": "0000000095",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book95",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 96,
@@ -1051,10 +907,9 @@
       "author": "Author 96",
       "category": "Cooking",
       "isbn": "0000000096",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book96",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 97,
@@ -1062,10 +917,9 @@
       "author": "Author 97",
       "category": "Cooking",
       "isbn": "0000000097",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book97",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 98,
@@ -1073,10 +927,9 @@
       "author": "Author 98",
       "category": "Cooking",
       "isbn": "0000000098",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book98",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 99,
@@ -1084,10 +937,9 @@
       "author": "Author 99",
       "category": "Cooking",
       "isbn": "0000000099",
-      "imgUrl": "https://via.placeholder.com/150/92c952?text=Book99",
-      "createdAt": "27.09.2023, 19:44:07",
-      "modifiedAt": null,
-      "isDeactivated": false
+      "createdAt": "28.09.2023, 11:03:25",
+      "modifiedAt": "---",
+      "active": false
     }
   ]
 }
