@@ -1,6 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import BookTable from '../components/BookTable/BookTable';
-import FilterSelector from '../components/FilterSelector/FilterSelector';
 import { Footer } from '../components/Footer/Footer';
 import { Container } from '../components/Container/Container';
 import { useSearchParams } from 'react-router-dom';
@@ -8,6 +7,7 @@ import { getBooks } from '../api/books';
 import { getFilteredData } from '../utils/getFilteredData';
 import { Book } from '../types/Book';
 import { Filter } from '../types/Filter';
+import { Header } from '../components/Header/Header';
 
 export const Dashboard: React.FC = () => {
   const [books, setBooks] = useState<Book[]>([]);
@@ -38,7 +38,7 @@ export const Dashboard: React.FC = () => {
 
   return (
     <Container>
-      <FilterSelector />
+      <Header />
       <BookTable books={visibleBooks}/>
       <Footer />
     </Container>

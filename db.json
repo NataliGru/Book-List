@@ -1,25 +1,34 @@
 {
   "books": [
     {
+      "id": 1,
+      "title": "Book 1",
+      "author": "Author 123",
+      "category": "Fiction",
+      "isbn": "0000000001",
+      "createdAt": "02 October 2023, 1:45PM",
+      "modifiedAt": "02 October 2023, 1:46PM",
+      "active": false
+    },
+    {
       "id": 2,
       "title": "Book 2",
       "author": "Author 2",
-      "category": "323",
+      "category": "Fiction",
       "isbn": "0000000002",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
-      "active": true
+      "active": false
     },
     {
       "id": 3,
       "title": "Book 3",
-      "author": "Author 32323",
+      "author": "Author 3",
       "category": "Fiction",
       "isbn": "0000000003",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
-      "active": true,
-      "Active": true
+      "active": false
     },
     {
       "id": 4,
@@ -27,9 +36,49 @@
       "author": "Author 4",
       "category": "Fiction",
       "isbn": "0000000004",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
-      "active": true
+      "active": false
+    },
+    {
+      "id": 5,
+      "title": "Book 5",
+      "author": "Author 5",
+      "category": "Fiction",
+      "isbn": "0000000005",
+      "createdAt": "02 October 2023, 1:45PM",
+      "modifiedAt": "---",
+      "active": false
+    },
+    {
+      "id": 6,
+      "title": "Book 6",
+      "author": "Author 6",
+      "category": "Fiction",
+      "isbn": "0000000006",
+      "createdAt": "02 October 2023, 1:45PM",
+      "modifiedAt": "---",
+      "active": false
+    },
+    {
+      "id": 7,
+      "title": "Book 7",
+      "author": "Author 7",
+      "category": "Fiction",
+      "isbn": "0000000007",
+      "createdAt": "02 October 2023, 1:45PM",
+      "modifiedAt": "---",
+      "active": false
+    },
+    {
+      "id": 8,
+      "title": "Book 8",
+      "author": "Author 8",
+      "category": "Fiction",
+      "isbn": "0000000008",
+      "createdAt": "02 October 2023, 1:45PM",
+      "modifiedAt": "---",
+      "active": false
     },
     {
       "id": 9,
@@ -37,7 +86,7 @@
       "author": "Author 9",
       "category": "Fiction",
       "isbn": "0000000009",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -47,17 +96,17 @@
       "author": "Author 10",
       "category": "Fiction",
       "isbn": "0000000010",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
     {
       "id": 11,
       "title": "Book 11",
-      "author": "Author 11111",
+      "author": "Author 11",
       "category": "Science Fiction",
       "isbn": "0000000011",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -67,7 +116,7 @@
       "author": "Author 12",
       "category": "Science Fiction",
       "isbn": "0000000012",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -77,7 +126,7 @@
       "author": "Author 13",
       "category": "Science Fiction",
       "isbn": "0000000013",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -87,7 +136,7 @@
       "author": "Author 14",
       "category": "Science Fiction",
       "isbn": "0000000014",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -97,7 +146,7 @@
       "author": "Author 15",
       "category": "Science Fiction",
       "isbn": "0000000015",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -107,7 +156,7 @@
       "author": "Author 16",
       "category": "Science Fiction",
       "isbn": "0000000016",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -117,7 +166,7 @@
       "author": "Author 17",
       "category": "Science Fiction",
       "isbn": "0000000017",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -127,7 +176,7 @@
       "author": "Author 18",
       "category": "Science Fiction",
       "isbn": "0000000018",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -137,7 +186,7 @@
       "author": "Author 19",
       "category": "Science Fiction",
       "isbn": "0000000019",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -147,7 +196,7 @@
       "author": "Author 20",
       "category": "Science Fiction",
       "isbn": "0000000020",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -157,7 +206,7 @@
       "author": "Author 21",
       "category": "Mystery",
       "isbn": "0000000021",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -167,7 +216,7 @@
       "author": "Author 22",
       "category": "Mystery",
       "isbn": "0000000022",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -177,7 +226,7 @@
       "author": "Author 23",
       "category": "Mystery",
       "isbn": "0000000023",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -187,7 +236,7 @@
       "author": "Author 24",
       "category": "Mystery",
       "isbn": "0000000024",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -197,7 +246,7 @@
       "author": "Author 25",
       "category": "Mystery",
       "isbn": "0000000025",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -207,7 +256,7 @@
       "author": "Author 26",
       "category": "Mystery",
       "isbn": "0000000026",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -217,7 +266,7 @@
       "author": "Author 27",
       "category": "Mystery",
       "isbn": "0000000027",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -227,7 +276,7 @@
       "author": "Author 28",
       "category": "Mystery",
       "isbn": "0000000028",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -237,7 +286,7 @@
       "author": "Author 29",
       "category": "Mystery",
       "isbn": "0000000029",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -247,7 +296,7 @@
       "author": "Author 30",
       "category": "Mystery",
       "isbn": "0000000030",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -257,7 +306,7 @@
       "author": "Author 31",
       "category": "Romance",
       "isbn": "0000000031",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -267,7 +316,7 @@
       "author": "Author 32",
       "category": "Romance",
       "isbn": "0000000032",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -277,7 +326,7 @@
       "author": "Author 33",
       "category": "Romance",
       "isbn": "0000000033",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -287,7 +336,7 @@
       "author": "Author 34",
       "category": "Romance",
       "isbn": "0000000034",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -297,7 +346,7 @@
       "author": "Author 35",
       "category": "Romance",
       "isbn": "0000000035",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -307,7 +356,7 @@
       "author": "Author 36",
       "category": "Romance",
       "isbn": "0000000036",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -317,7 +366,7 @@
       "author": "Author 37",
       "category": "Romance",
       "isbn": "0000000037",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -327,7 +376,7 @@
       "author": "Author 38",
       "category": "Romance",
       "isbn": "0000000038",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -337,7 +386,7 @@
       "author": "Author 39",
       "category": "Romance",
       "isbn": "0000000039",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -347,7 +396,7 @@
       "author": "Author 40",
       "category": "Romance",
       "isbn": "0000000040",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -357,7 +406,7 @@
       "author": "Author 41",
       "category": "Fantasy",
       "isbn": "0000000041",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -367,7 +416,7 @@
       "author": "Author 42",
       "category": "Fantasy",
       "isbn": "0000000042",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -377,7 +426,7 @@
       "author": "Author 43",
       "category": "Fantasy",
       "isbn": "0000000043",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -387,7 +436,7 @@
       "author": "Author 44",
       "category": "Fantasy",
       "isbn": "0000000044",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -397,7 +446,7 @@
       "author": "Author 45",
       "category": "Fantasy",
       "isbn": "0000000045",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -407,7 +456,7 @@
       "author": "Author 46",
       "category": "Fantasy",
       "isbn": "0000000046",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -417,7 +466,7 @@
       "author": "Author 47",
       "category": "Fantasy",
       "isbn": "0000000047",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -427,7 +476,7 @@
       "author": "Author 48",
       "category": "Fantasy",
       "isbn": "0000000048",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -437,7 +486,7 @@
       "author": "Author 49",
       "category": "Fantasy",
       "isbn": "0000000049",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -447,7 +496,7 @@
       "author": "Author 50",
       "category": "Fantasy",
       "isbn": "0000000050",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -457,7 +506,7 @@
       "author": "Author 51",
       "category": "Thriller",
       "isbn": "0000000051",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -467,7 +516,7 @@
       "author": "Author 52",
       "category": "Thriller",
       "isbn": "0000000052",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -477,7 +526,7 @@
       "author": "Author 53",
       "category": "Thriller",
       "isbn": "0000000053",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -487,7 +536,7 @@
       "author": "Author 54",
       "category": "Thriller",
       "isbn": "0000000054",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -497,7 +546,7 @@
       "author": "Author 55",
       "category": "Thriller",
       "isbn": "0000000055",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -507,7 +556,7 @@
       "author": "Author 56",
       "category": "Thriller",
       "isbn": "0000000056",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -517,7 +566,7 @@
       "author": "Author 57",
       "category": "Thriller",
       "isbn": "0000000057",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -527,7 +576,7 @@
       "author": "Author 58",
       "category": "Thriller",
       "isbn": "0000000058",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -537,7 +586,7 @@
       "author": "Author 59",
       "category": "Thriller",
       "isbn": "0000000059",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -547,7 +596,7 @@
       "author": "Author 60",
       "category": "Thriller",
       "isbn": "0000000060",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -557,7 +606,7 @@
       "author": "Author 61",
       "category": "Non-Fiction",
       "isbn": "0000000061",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -567,7 +616,7 @@
       "author": "Author 62",
       "category": "Non-Fiction",
       "isbn": "0000000062",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -577,7 +626,7 @@
       "author": "Author 63",
       "category": "Non-Fiction",
       "isbn": "0000000063",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -587,7 +636,7 @@
       "author": "Author 64",
       "category": "Non-Fiction",
       "isbn": "0000000064",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -597,7 +646,7 @@
       "author": "Author 65",
       "category": "Non-Fiction",
       "isbn": "0000000065",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -607,7 +656,7 @@
       "author": "Author 66",
       "category": "Non-Fiction",
       "isbn": "0000000066",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -617,7 +666,7 @@
       "author": "Author 67",
       "category": "Non-Fiction",
       "isbn": "0000000067",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -627,7 +676,7 @@
       "author": "Author 68",
       "category": "Non-Fiction",
       "isbn": "0000000068",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -637,7 +686,7 @@
       "author": "Author 69",
       "category": "Non-Fiction",
       "isbn": "0000000069",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -647,7 +696,7 @@
       "author": "Author 70",
       "category": "Non-Fiction",
       "isbn": "0000000070",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -657,7 +706,7 @@
       "author": "Author 71",
       "category": "Biography",
       "isbn": "0000000071",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -667,7 +716,7 @@
       "author": "Author 72",
       "category": "Biography",
       "isbn": "0000000072",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -677,7 +726,7 @@
       "author": "Author 73",
       "category": "Biography",
       "isbn": "0000000073",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -687,7 +736,7 @@
       "author": "Author 74",
       "category": "Biography",
       "isbn": "0000000074",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -697,7 +746,7 @@
       "author": "Author 75",
       "category": "Biography",
       "isbn": "0000000075",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -707,7 +756,7 @@
       "author": "Author 76",
       "category": "Biography",
       "isbn": "0000000076",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -717,7 +766,7 @@
       "author": "Author 77",
       "category": "Biography",
       "isbn": "0000000077",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -727,7 +776,7 @@
       "author": "Author 78",
       "category": "Biography",
       "isbn": "0000000078",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -737,7 +786,7 @@
       "author": "Author 79",
       "category": "Biography",
       "isbn": "0000000079",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -747,7 +796,7 @@
       "author": "Author 80",
       "category": "Biography",
       "isbn": "0000000080",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -757,7 +806,7 @@
       "author": "Author 81",
       "category": "Self-Help",
       "isbn": "0000000081",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -767,7 +816,7 @@
       "author": "Author 82",
       "category": "Self-Help",
       "isbn": "0000000082",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -777,7 +826,7 @@
       "author": "Author 83",
       "category": "Self-Help",
       "isbn": "0000000083",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -787,7 +836,7 @@
       "author": "Author 84",
       "category": "Self-Help",
       "isbn": "0000000084",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -797,7 +846,7 @@
       "author": "Author 85",
       "category": "Self-Help",
       "isbn": "0000000085",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -807,7 +856,7 @@
       "author": "Author 86",
       "category": "Self-Help",
       "isbn": "0000000086",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -817,7 +866,7 @@
       "author": "Author 87",
       "category": "Self-Help",
       "isbn": "0000000087",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -827,7 +876,7 @@
       "author": "Author 88",
       "category": "Self-Help",
       "isbn": "0000000088",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -837,7 +886,7 @@
       "author": "Author 89",
       "category": "Self-Help",
       "isbn": "0000000089",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -847,7 +896,7 @@
       "author": "Author 90",
       "category": "Self-Help",
       "isbn": "0000000090",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -857,7 +906,7 @@
       "author": "Author 91",
       "category": "Cooking",
       "isbn": "0000000091",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -867,7 +916,7 @@
       "author": "Author 92",
       "category": "Cooking",
       "isbn": "0000000092",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -877,7 +926,7 @@
       "author": "Author 93",
       "category": "Cooking",
       "isbn": "0000000093",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -887,7 +936,7 @@
       "author": "Author 94",
       "category": "Cooking",
       "isbn": "0000000094",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -897,7 +946,7 @@
       "author": "Author 95",
       "category": "Cooking",
       "isbn": "0000000095",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -907,7 +956,7 @@
       "author": "Author 96",
       "category": "Cooking",
       "isbn": "0000000096",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -917,7 +966,7 @@
       "author": "Author 97",
       "category": "Cooking",
       "isbn": "0000000097",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -927,7 +976,7 @@
       "author": "Author 98",
       "category": "Cooking",
       "isbn": "0000000098",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     },
@@ -937,7 +986,7 @@
       "author": "Author 99",
       "category": "Cooking",
       "isbn": "0000000099",
-      "createdAt": "28.09.2023, 11:03:25",
+      "createdAt": "02 October 2023, 1:45PM",
       "modifiedAt": "---",
       "active": false
     }

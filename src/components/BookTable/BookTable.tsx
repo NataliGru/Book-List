@@ -18,10 +18,13 @@ import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/DeleteOutlined';
 import SaveIcon from '@mui/icons-material/Save';
 import CancelIcon from '@mui/icons-material/Close';
+import moment from 'moment';
 
 type BookTableProps = {
   books: Book[];
 };
+
+const editedTime = moment().format('DD MMMM YYYY, h:mmA');
 
 export default function BookTable({ books }: BookTableProps) {
   const [rows, setRows] = useState<GridValidRowModel[]>([]);
@@ -72,13 +75,15 @@ export default function BookTable({ books }: BookTableProps) {
   };
 
   const processRowUpdate = (updatedRow: GridValidRowModel) => {
+    const updatedWithDate = {...updatedRow, modifiedAt: editedTime };
+
     setRows(
       (prevRows) =>
         prevRows &&
-        prevRows.map((row) => (row.id === updatedRow.id ? updatedRow : row)),
+        prevRows.map((row) => (row.id === updatedRow.id ? updatedWithDate : row)),
     );
 
-    updateBook(updatedRow as Book);
+    updateBook(updatedWithDate as Book);
 
     return updatedRow;
   };
@@ -123,14 +128,14 @@ export default function BookTable({ books }: BookTableProps) {
       field: 'createdAt',
       headerName: 'Created At',
       type: 'string',
-      width: 120,
+      width: 150,
       editable: false,
     },
     {
       field: 'modifiedAt',
       headerName: 'Modified At',
       type: 'string',
-      width: 120,
+      width: 150,
       editable: false,
     },
     {

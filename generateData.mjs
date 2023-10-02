@@ -1,15 +1,7 @@
 import { writeFileSync } from 'fs';
+import moment from 'moment';
 
-type Book = {
-  id: number;
-  title: string;
-  author: string;
-  category: string;
-  isbn: string;
-  createdAt: string;
-  modifiedAt: string;
-  active: boolean;
-}
+const currentTime = moment().format('DD MMMM YYYY, h:mmA');
 
 
 const categories = [
@@ -32,7 +24,7 @@ const generateISBN = () => {
   return ISBN;
 };
 
-const data = { books: [] as Book[]};
+const data = { books: [] };
 for (let i = 1; i <= 99; i++) {
   const categoryIndex = Math.floor((i - 1) / 10);
   const category = categories[categoryIndex];
@@ -43,7 +35,7 @@ for (let i = 1; i <= 99; i++) {
     author: `Author ${i}`,
     category,
     isbn: generateISBN(),
-    createdAt: new Date().toLocaleString(),
+    createdAt: currentTime,
     modifiedAt: '---',
     active: false,
   });
