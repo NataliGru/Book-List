@@ -1,75 +1,40 @@
 import React, { useEffect, useState } from 'react';
 import {
   DataGrid,
-  GridRowModel,
   GridRowId,
-  GridRowsProp,
-  GridValueGetterParams,
   GridRowModesModel,
   GridRowEditStopReasons,
   GridRowModes,
-  GridRowEditStartParams,
-  GridRowEditStopParams,
-  GridToolbarContainer,
   GridEventListener,
   GridActionsCellItem,
   GridColDef,
   GridValidRowModel,
 } from '@mui/x-data-grid';
 
-import { deleteBook, getBooks, updateBook } from '../../api/books';
+import { deleteBook, updateBook } from '../../api/books';
 import { Book } from '../../types/Book';
-// import { columns } from './BookCol';
 import Box from '@mui/material/Box';
-import Fab from '@mui/material/Fab';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/DeleteOutlined';
 import SaveIcon from '@mui/icons-material/Save';
 import CancelIcon from '@mui/icons-material/Close';
-import DoneAllIcon from '@mui/icons-material/DoneAll';
 
-interface EditToolbarProps {
-  setRows: (newRows: (oldRows: GridRowsProp) => GridRowsProp) => void;
-  setRowModesModel: (
-    newModel: (oldModel: GridRowModesModel) => GridRowModesModel,
-  ) => void;
-}
+type BookTableProps = {
+  books: Book[];
+};
 
-
-
-const buttons = () => (
-  <Box sx={{ '& > :not(style)': { m: 1 } }}>
-    <Fab color="secondary" aria-label="edit">
-      <EditIcon />
-    </Fab>
-    <Fab color="secondary" aria-label="delete">
-      <DeleteIcon />
-    </Fab>
-    <Fab color="secondary" aria-label="active">
-      <DoneAllIcon />
-    </Fab>
-  </Box>
-);
-
-export default function BookTable() {
+export default function BookTable({ books }: BookTableProps) {
   const [rows, setRows] = useState<GridValidRowModel[]>([]);
 
   useEffect(() => {
-    getBooks()
-      .then((data) => {
-        const initialRows: GridValidRowModel[] = data.map((book) => ({
-          ...book,
-        }));
+    const initialRows: GridValidRowModel[] = books.map((book) => ({
+      ...book,
+    }));
 
-        setRows(initialRows)
-      })
-      .catch((error) => error);
-  }, []);
-
-
+    setRows(initialRows);
+  }, [books]);
 
   const [rowModesModel, setRowModesModel] = useState<GridRowModesModel>({});
-
 
   const handleRowEditStop: GridEventListener<'rowEditStop'> = (
     params,
@@ -81,8 +46,8 @@ export default function BookTable() {
   };
 
   const handleEditClick = (id: GridRowId) => () => {
-  setRowModesModel({ ...rowModesModel, [id]: { mode: GridRowModes.Edit } });
-};
+    setRowModesModel({ ...rowModesModel, [id]: { mode: GridRowModes.Edit } });
+  };
 
   const handleSaveClick = (id: GridRowId) => () => {
     setRowModesModel({ ...rowModesModel, [id]: { mode: GridRowModes.View } });
@@ -107,11 +72,13 @@ export default function BookTable() {
   };
 
   const processRowUpdate = (updatedRow: GridValidRowModel) => {
-    setRows((prevRows) =>
-    prevRows && prevRows.map((row) => (row.id === updatedRow.id ? updatedRow : row)),
+    setRows(
+      (prevRows) =>
+        prevRows &&
+        prevRows.map((row) => (row.id === updatedRow.id ? updatedRow : row)),
     );
 
-    updateBook(updatedRow as Book)
+    updateBook(updatedRow as Book);
 
     return updatedRow;
   };
@@ -120,107 +87,106 @@ export default function BookTable() {
     setRowModesModel(newRowModesModel);
   };
 
-const columns: GridColDef[] = [
-  { field: 'id', headerName: 'ID', width: 45, editable: false },
-  {
-    field: 'title',
-    headerName: 'Book title',
-    type: 'string',
-    editable: true,
-    width: 130,
-    align: 'left',
-    headerAlign: 'left',
-  },
-  {
-    field: 'author',
-    headerName: 'Author name',
-    type: 'string',
-    width: 180,
-    editable: true,
-  },
-  {
-    field: 'category',
-    headerName: 'Category',
-    type: 'string',
-    width: 100,
-    editable: true,
-  },
-  {
-    field: 'isbn',
-    headerName: 'ISBN',
-    type: 'string',
-    width: 100,
-    editable: true,
-  },
-  {
-    field: 'createdAt',
-    headerName: 'Created At',
-    type: 'string',
-    width: 120,
-    editable: false,
-  },
-  {
-    field: 'modifiedAt',
-    headerName: 'Modified At',
-    type: 'string',
-    width: 120,
-    editable: false,
-  },
-  {
-    field: 'active',
-    headerName: 'Active',
-    type: 'boolean',
-    width: 100,
-    editable: true,
-  },
-  {
-    field: 'actions',
-    type: 'actions',
-    headerName: 'Actions',
-    width: 100,
-    cellClassName: 'actions',
-    getActions: ({ id }) => {
-      const isInEditMode = rowModesModel[id]?.mode === GridRowModes.Edit;
+  const columns: GridColDef[] = [
+    { field: 'id', headerName: 'ID', width: 45, editable: false },
+    {
+      field: 'title',
+      headerName: 'Book title',
+      type: 'string',
+      editable: true,
+      width: 130,
+      align: 'left',
+      headerAlign: 'left',
+    },
+    {
+      field: 'author',
+      headerName: 'Author name',
+      type: 'string',
+      width: 180,
+      editable: true,
+    },
+    {
+      field: 'category',
+      headerName: 'Category',
+      type: 'string',
+      width: 100,
+      editable: true,
+    },
+    {
+      field: 'isbn',
+      headerName: 'ISBN',
+      type: 'string',
+      width: 100,
+      editable: true,
+    },
+    {
+      field: 'createdAt',
+      headerName: 'Created At',
+      type: 'string',
+      width: 120,
+      editable: false,
+    },
+    {
+      field: 'modifiedAt',
+      headerName: 'Modified At',
+      type: 'string',
+      width: 120,
+      editable: false,
+    },
+    {
+      field: 'active',
+      headerName: 'Active',
+      type: 'boolean',
+      width: 100,
+      editable: true,
+    },
+    {
+      field: 'actions',
+      type: 'actions',
+      headerName: 'Actions',
+      width: 100,
+      cellClassName: 'actions',
+      getActions: ({ id }) => {
+        const isInEditMode = rowModesModel[id]?.mode === GridRowModes.Edit;
 
-      if (isInEditMode) {
+        if (isInEditMode) {
+          return [
+            <GridActionsCellItem
+              icon={<SaveIcon />}
+              label="Save"
+              sx={{
+                color: 'primary.main',
+              }}
+              onClick={handleSaveClick(id)}
+            />,
+            <GridActionsCellItem
+              icon={<CancelIcon />}
+              label="Cancel"
+              className="textPrimary"
+              onClick={handleCancelClick(id)}
+              color="inherit"
+            />,
+          ];
+        }
+
         return [
           <GridActionsCellItem
-            icon={<SaveIcon />}
-            label="Save"
-            sx={{
-              color: 'primary.main',
-            }}
-            onClick={handleSaveClick(id)}
+            icon={<EditIcon />}
+            label="Edit"
+            className="textPrimary"
+            onClick={handleEditClick(id)}
+            color="inherit"
           />,
           <GridActionsCellItem
-            icon={<CancelIcon />}
-            label="Cancel"
-            className="textPrimary"
-            onClick={handleCancelClick(id)}
+            icon={<DeleteIcon />}
+            label="Delete"
+            onClick={handleDeleteClick(id)}
             color="inherit"
           />,
         ];
-      }
-
-      return [
-        <GridActionsCellItem
-          icon={<EditIcon />}
-          label="Edit"
-          className="textPrimary"
-          onClick={handleEditClick(id)}
-          color="inherit"
-        />,
-        <GridActionsCellItem
-          icon={<DeleteIcon />}
-          label="Delete"
-          onClick={handleDeleteClick(id)}
-          color="inherit"
-        />,
-      ];
+      },
     },
-  },
-];
-
+  ];
 
   return (
     <Box
