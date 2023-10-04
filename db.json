@@ -3,12 +3,12 @@
     {
       "id": 1,
       "title": "Book 1",
-      "author": "Author 123",
+      "author": "Author 1",
       "category": "Fiction",
       "isbn": "0000000001",
       "createdAt": "02 October 2023, 1:45PM",
-      "modifiedAt": "02 October 2023, 1:46PM",
-      "active": false
+      "modifiedAt": "02 October 2023, 2:24PM",
+      "active": true
     },
     {
       "id": 2,
@@ -17,8 +17,8 @@
       "category": "Fiction",
       "isbn": "0000000002",
       "createdAt": "02 October 2023, 1:45PM",
-      "modifiedAt": "---",
-      "active": false
+      "modifiedAt": "02 October 2023, 2:24PM",
+      "active": true
     },
     {
       "id": 3,
@@ -27,8 +27,8 @@
       "category": "Fiction",
       "isbn": "0000000003",
       "createdAt": "02 October 2023, 1:45PM",
-      "modifiedAt": "---",
-      "active": false
+      "modifiedAt": "02 October 2023, 2:23PM",
+      "active": true
     },
     {
       "id": 4,
@@ -47,8 +47,8 @@
       "category": "Fiction",
       "isbn": "0000000005",
       "createdAt": "02 October 2023, 1:45PM",
-      "modifiedAt": "---",
-      "active": false
+      "modifiedAt": "02 October 2023, 2:23PM",
+      "active": true
     },
     {
       "id": 6,
@@ -137,8 +137,8 @@
       "category": "Science Fiction",
       "isbn": "0000000014",
       "createdAt": "02 October 2023, 1:45PM",
-      "modifiedAt": "---",
-      "active": false
+      "modifiedAt": "02 October 2023, 2:23PM",
+      "active": true
     },
     {
       "id": 15,

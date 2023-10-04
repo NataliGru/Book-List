@@ -198,7 +198,6 @@ export default function BookTable({ books }: BookTableProps) {
       sx={{
         height: 500,
         width: '100%',
-        padding: 5,
         '& .actions': {
           color: 'text.secondary',
         },
