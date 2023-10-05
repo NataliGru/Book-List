@@ -21,8 +21,9 @@ export default function FilterSelector() {
     setSearchParams(search);
   };
 
+
   return (
-    <Box sx={{ maxWidth: 250 }}>
+    <Box sx={{ width: 150, marginBottom: 1 }}>
       <FormControl fullWidth>
         <InputLabel id="demo-simple-select-label">Filter</InputLabel>
         <Select

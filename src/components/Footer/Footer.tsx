@@ -21,16 +21,3 @@ export const Footer = () => {
     </Box>
   );
 };
-
-export const Footer2 = () => (
-  <footer
-    style={{ position: 'fixed', bottom: 0, width: '100%', textAlign: 'center' }}
-  >
-    <button className="button">
-      <span className="icon">
-        <i className="fab fa-github"></i>
-      </span>
-      <span>GitHub</span>
-    </button>
-  </footer>
-);

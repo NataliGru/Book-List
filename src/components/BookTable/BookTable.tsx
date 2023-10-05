@@ -93,13 +93,12 @@ export default function BookTable({ books }: BookTableProps) {
   };
 
   const columns: GridColDef[] = [
-    { field: 'id', headerName: 'ID', width: 45, editable: false },
+    { field: 'id', headerName: 'ID', editable: false },
     {
       field: 'title',
       headerName: 'Book title',
       type: 'string',
       editable: true,
-      width: 130,
       align: 'left',
       headerAlign: 'left',
     },
@@ -107,21 +106,18 @@ export default function BookTable({ books }: BookTableProps) {
       field: 'author',
       headerName: 'Author name',
       type: 'string',
-      width: 180,
       editable: true,
     },
     {
       field: 'category',
       headerName: 'Category',
       type: 'string',
-      width: 100,
       editable: true,
     },
     {
       field: 'isbn',
       headerName: 'ISBN',
       type: 'string',
-      width: 100,
       editable: true,
     },
     {
@@ -135,21 +131,18 @@ export default function BookTable({ books }: BookTableProps) {
       field: 'modifiedAt',
       headerName: 'Modified At',
       type: 'string',
-      width: 150,
       editable: false,
     },
     {
       field: 'active',
       headerName: 'Active',
       type: 'boolean',
-      width: 100,
       editable: true,
     },
     {
       field: 'actions',
       type: 'actions',
       headerName: 'Actions',
-      width: 100,
       cellClassName: 'actions',
       getActions: ({ id }) => {
         const isInEditMode = rowModesModel[id]?.mode === GridRowModes.Edit;
@@ -196,7 +189,7 @@ export default function BookTable({ books }: BookTableProps) {
   return (
     <Box
       sx={{
-        height: 500,
+        height: '100vh',
         width: '100%',
         '& .actions': {
           color: 'text.secondary',

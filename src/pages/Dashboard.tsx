@@ -7,7 +7,7 @@ import { getBooks } from '../api/books';
 import { getFilteredData } from '../utils/getFilteredData';
 import { Book } from '../types/Book';
 import { Filter } from '../types/Filter';
-import { Header } from '../components/Header/Header';
+import FilterSelector from '../components/FilterSelector/FilterSelector';
 
 export const Dashboard: React.FC = () => {
   const [books, setBooks] = useState<Book[]>([]);
@@ -29,18 +29,16 @@ export const Dashboard: React.FC = () => {
   const visibleBooks = useMemo(() => {
     const filteredBooks = getFilteredData({
       books,
-      filter
+      filter,
     });
 
     return filteredBooks;
   }, [books, filter]);
 
-
   return (
     <Container>
-      <Header />
-      <BookTable books={visibleBooks}/>
-      <Footer />
+      <FilterSelector />
+      <BookTable books={visibleBooks} />
     </Container>
   );
 };
