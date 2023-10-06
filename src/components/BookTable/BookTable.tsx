@@ -189,7 +189,7 @@ export default function BookTable({ books }: BookTableProps) {
   return (
     <Box
       sx={{
-        height: '100vh',
+        height: 'calc(100vh - 230px)',
         width: '100%',
         '& .actions': {
           color: 'text.secondary',

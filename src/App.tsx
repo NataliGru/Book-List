@@ -8,11 +8,9 @@ export const App: React.FC = () => {
   return (
     <div>
       <Header />
-
       <Container>
         <Outlet />
       </Container>
-
       <Footer />
     </div>
   );

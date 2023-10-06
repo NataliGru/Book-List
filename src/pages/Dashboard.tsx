@@ -36,9 +36,9 @@ export const Dashboard: React.FC = () => {
   }, [books, filter]);
 
   return (
-    <Container>
+    <>
       <FilterSelector />
       <BookTable books={visibleBooks} />
-    </Container>
+    </>
   );
 };

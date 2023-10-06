@@ -5,7 +5,7 @@
   margin: 0 auto;
   padding:20px;
 
-  height: 100vh;
+  height: calc(100% - 130px);
 
   @include onTablet {
     max-width: 1100px;
