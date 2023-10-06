@@ -9,7 +9,7 @@ export const Footer = () => {
   const MY_GIT_HUB_ACCOUNT = 'https://github.com/NataliGru';
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%', position: 'fixed', bottom: 0 }}>
       <BottomNavigation>
         <Link href={MY_GIT_HUB_ACCOUNT} target="_blank" rel="noopener noreferrer">
           <BottomNavigationAction

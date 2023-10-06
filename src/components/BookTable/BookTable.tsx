@@ -93,7 +93,8 @@ export default function BookTable({ books }: BookTableProps) {
   };
 
   const columns: GridColDef[] = [
-    { field: 'id', headerName: 'ID', editable: false },
+    { field: 'id', headerName: 'ID', editable: false, disableColumnMenu: true,       flex: 1,
+  },
     {
       field: 'title',
       headerName: 'Book title',
@@ -101,24 +102,32 @@ export default function BookTable({ books }: BookTableProps) {
       editable: true,
       align: 'left',
       headerAlign: 'left',
+      disableColumnMenu: true,
+      flex: 1,
     },
     {
       field: 'author',
       headerName: 'Author name',
       type: 'string',
       editable: true,
+      disableColumnMenu: true,
+      flex: 1,
     },
     {
       field: 'category',
       headerName: 'Category',
       type: 'string',
       editable: true,
+      disableColumnMenu: true,
+      flex: 1,
     },
     {
       field: 'isbn',
       headerName: 'ISBN',
       type: 'string',
       editable: true,
+      disableColumnMenu: true,
+      flex: 1,
     },
     {
       field: 'createdAt',
@@ -126,24 +135,32 @@ export default function BookTable({ books }: BookTableProps) {
       type: 'string',
       width: 150,
       editable: false,
+      disableColumnMenu: true,
+      flex: 1,
     },
     {
       field: 'modifiedAt',
       headerName: 'Modified At',
       type: 'string',
       editable: false,
+      disableColumnMenu: true,
+      flex: 1,
     },
     {
       field: 'active',
       headerName: 'Active',
       type: 'boolean',
       editable: true,
+      disableColumnMenu: true,
+      flex: 1,
     },
     {
       field: 'actions',
       type: 'actions',
+      disableColumnMenu: true,
       headerName: 'Actions',
       cellClassName: 'actions',
+      flex: 1,
       getActions: ({ id }) => {
         const isInEditMode = rowModesModel[id]?.mode === GridRowModes.Edit;
 
