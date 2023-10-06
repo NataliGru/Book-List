@@ -7,26 +7,36 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 
 import './Header.scss';
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
-        <Toolbar>
-          <Typography
-            variant="h6"
-            component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-          >
-            Books Dashboard
-          </Typography>
-          <Button
-            href="/addNewBook"
-            variant="text"
-            sx={{ color: 'white' }}
-          >
-            Add new book
-          </Button>
+      <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
+          <NavLink to="/" style={{
+              textDecoration: 'none',
+              color: 'white',
+            }}>
+            <Typography
+              variant="h6"
+              component="div"
+            >
+              Books Dashboard
+            </Typography>
+          </NavLink>
+
+          <NavLink to="/addNewBook"  style={{
+              textDecoration: 'none',
+              color: 'white',
+            }}>
+            <Typography
+              variant="h6"
+              component="div"
+            >
+              Add new book
+            </Typography>
+          </NavLink>
         </Toolbar>
       </AppBar>
     </Box>

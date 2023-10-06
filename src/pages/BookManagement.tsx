@@ -1,78 +1,92 @@
-import React from 'react';
-import { FormControl, FormControlState } from '@mui/base/FormControl';
-import { Input, inputClasses } from '@mui/base/Input';
-import { styled } from '@mui/system';
+import React, { useState, ChangeEvent, FormEvent } from 'react';
+import {
+  TextField,
+  Button,
+  Select,
+  MenuItem,
+  FormControl,
+  InputLabel,
+  SelectChangeEvent,
+} from '@mui/material';
+import { addBook } from '../api/books';
 
-export const BookManagement: React.FC = () => {
+interface FormData {
+  title: string;
+  author: string;
+  category: string;
+  isbn: string;
+}
+
+const initialFormData: FormData = {
+  title: '',
+  author: '',
+  category: '',
+  isbn: '',
+};
+
+export function BookManagement() {
+  const [formData, setFormData] = useState<FormData>(initialFormData);
+
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e: FormEvent) => {
+    e.preventDefault();
+    try {
+      // Відправка даних на сервер та очищення форми
+      await addBook(formData);
+      setFormData(initialFormData);
+
+      console.log('Book added successfully');
+    } catch (error) {
+      console.error('Error adding book:', error);
+    }
+  };
+
   return (
-    <div>
-      <FormControl defaultValue="" required>
-      {({ filled, focused }: FormControlState) => (
-        <React.Fragment>
-          <StyledInput className={filled ? 'filled' : ''} />
-          {filled && !focused && <OkMark>✔</OkMark>}
-        </React.Fragment>
-      )}
-    </FormControl>
-    </div>
+    <form onSubmit={handleSubmit}>
+      <TextField
+        label="Book title"
+        name="title"
+        value={formData.title}
+        onChange={handleInputChange}
+        required
+      />
+      <TextField
+        label="Author name"
+        name="author"
+        value={formData.author}
+        onChange={handleInputChange}
+        required
+      />
+      <FormControl required>
+        <InputLabel>Category</InputLabel>
+        <Select
+          name="category"
+          value={formData.category}
+          onChange={(e: SelectChangeEvent<string>) => {
+            const { name, value } = e.target;
+            setFormData({ ...formData, [name]: value });
+          }}
+        >
+          <MenuItem value="Fiction">Fiction</MenuItem>
+          <MenuItem value="Non-Fiction">Non-Fiction</MenuItem>
+          <MenuItem value="Science">Science</MenuItem>
+        </Select>
+      </FormControl>
+      <TextField
+        label="ISBN"
+        name="isbn"
+        type="text"
+        value={formData.isbn}
+        onChange={handleInputChange}
+        required
+      />
+      <Button type="submit" variant="contained" color="primary">
+        Add a Book
+      </Button>
+    </form>
   );
-};
-
-const StyledInput = styled(Input)(
-  ({ theme }) => `
-  display: inline-block;
-
-  .${inputClasses.input} {
-    width: 320px;
-    font-size: 0.875rem;
-    font-family: IBM Plex Sans, sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    color: ${theme.palette.mode === 'dark' ? grey[300] : grey[900]};
-    background: ${theme.palette.mode === 'dark' ? grey[900] : grey[50]};
-    border: 1px solid ${theme.palette.mode === 'dark' ? grey[800] : grey[300]};
-    border-radius: 8px;
-    padding: 12px 12px;
-
-    &:hover {
-      background: ${theme.palette.mode === 'dark' ? '' : grey[100]};
-      border-color: ${theme.palette.mode === 'dark' ? grey[700] : grey[400]};
-    }
-
-    &:focus {
-      outline: 3px solid ${theme.palette.mode === 'dark' ? blue[600] : blue[100]};
-    }
-  }
-
-  &.filled .${inputClasses.input} {
-    box-shadow: 0 0 2px 2px rgba(125, 200, 0, 0.25);
-  }
-`,
-);
-
-const OkMark = styled('span')`
-  margin-left: 8px;
-  margin-top: 10px;
-  position: absolute;
-  color: rgb(125 200 0 / 1);
-`;
-
-const blue = {
-  100: '#DAECFF',
-  200: '#80BFFF',
-  400: '#3399FF',
-  600: '#0072E5',
-};
-
-const grey = {
-  50: '#F3F6F9',
-  100: '#E7EBF0',
-  200: '#E0E3E7',
-  300: '#CDD2D7',
-  400: '#B2BAC2',
-  500: '#A0AAB4',
-  600: '#6F7E8C',
-  700: '#3E5060',
-  800: '#2D3843',
-  900: '#1A2027',
-};
+}
